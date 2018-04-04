@@ -15,8 +15,10 @@ students = ["Tim Jones", "Tom Smith", "Sophie Johnson", "Antoin Miller"]
 my_collect(students) do |name|
   return name.split(" ").first
 end
+end
 
 languages = ["ruby,", "javascript", "python", "objective-c"]
 my_collect(languages) do |lang|
   return lang.upcase
+end
 end
