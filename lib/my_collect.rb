@@ -13,6 +13,7 @@ end
     #return modified collection
 students = ["Tim Jones", "Tom Smith", "Sophie Johnson", "Antoin Miller"]
 my_collect(students) do |name|
+  first_name = []
    name.split(" ").first = first_name
    return first_name
 end
@@ -20,6 +21,7 @@ end
 
 languages = ["ruby,", "javascript", "python", "objective-c"]
 my_collect(languages) do |lang|
+  language_upper = []
    lang.upcase = language_upper
    return language_upper
 end
