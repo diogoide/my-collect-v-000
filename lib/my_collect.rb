@@ -12,7 +12,7 @@ def  my_collect(collection)
 end
     #return modified collection
 
-my_collect("Tim", "Tom", "Jim") do |name, language|
+my_collect(["Tim", "Tom", "Jim"]) do |name, language|
   name.split(" ").first
   language.upcase
 end
