@@ -1,11 +1,12 @@
-def  my_collect(collection)
+def  my_collect(array)
   if block_given?
     i = 0
     collection = []
-    while i < collection.length
-      collection << yield(collection[i])
+    while i < array.length
+      collection << yield(array[i])
         i += 1
     end
+    return collection
   else
     false
   end
