@@ -4,6 +4,7 @@ def  my_collect(collection)
       yield(collection[i])
         i += 1
     end
+    my_collect
 end
     #return modified collection
 
