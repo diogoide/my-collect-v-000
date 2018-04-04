@@ -11,13 +11,13 @@ def  my_collect(collection)
   end
 end
     #return modified collection
-collection = ["Tim Jones", "Tom Smith", "Jim Campagno"]
-my_collect(collection) do |name|
+students = [['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller']
+my_collect(students) do |name|
   name.split(" ").first
 end
 
-collection = ["ruby,", "javascript", "python", "objective-c"]
-my_collect(collection) do |lang|
+languages = ["ruby,", "javascript", "python", "objective-c"]
+my_collect(languages) do |lang|
   lang.upcase
 end
  
