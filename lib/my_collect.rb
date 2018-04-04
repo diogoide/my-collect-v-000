@@ -7,7 +7,8 @@ def  my_collect(collection)
     end
     collection
   else
-    false 
+    false
+  end 
 end
     #return modified collection
 
