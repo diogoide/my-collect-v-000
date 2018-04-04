@@ -12,7 +12,7 @@ def  my_collect(collection)
 end
     #return modified collection
 
-my_collect(["Tim", "Tom", "Jim"]) do |name|
+my_collect(["Tim Jones", "Tom Smith", "Jim Campagno"]) do |name|
   name.split(" ").first
 end
 
