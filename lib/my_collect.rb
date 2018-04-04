@@ -20,3 +20,4 @@ collection = ["ruby,", "javascript", "python", "objective-c"]
 my_collect(collection) do |lang|
   return lang.upcase
 end
+end 
