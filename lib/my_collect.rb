@@ -12,11 +12,10 @@ def  my_collect(collection)
 end
     #return modified collection
 
-my_collect(["Tim", "Tom", "Jim"]) do |name, language|
+my_collect(["Tim", "Tom", "Jim"]) do |name|
   name.split(" ").first
-  language.upcase
 end
 
 #my_collect(["ruby,", "javascript", "python", "objective-c"]) do |language|
   #language.upcase
-#end 
+#end
